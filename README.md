@@ -28,6 +28,8 @@ code blocks for commands
 
 ## Help
 
+Sort your videos in order by name
+Then you will record which video, start time, end time, and name of move/combo for your clip
 Each line of input text must follow this format
 ```
 "{videoIndex} - {startTime} {endTime} {moveName}"
@@ -55,6 +57,11 @@ Each line of input text must follow this format
 		653 728 **Pedestrian Step > Stompies(?) > Uncrossed Back Shuffle > misc fw
 		7 - 206 227 misc fw > No Hands 6Step > Hand Swipes
 		8 - 230 313 Floor Palms > Telewide
+
+			for example: 
+				5 - 151 204 ***Braid 
+				In my 5th video, this will take a clip from 1:51 to 2:04 and name the file "Braid"
+
 ```
 
 <!-- ## Authors
