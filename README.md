@@ -24,16 +24,40 @@ An in-depth paragraph about your project and overview of use.
 * Step-by-step bullets
 ```
 code blocks for commands
-```
+``` -->
 
 ## Help
 
-Any advise for common problems or issues.
+Each line of input text must follow this format
 ```
-command to run if program contains helper info
+"{videoIndex} - {startTime} {endTime} {moveName}"
+	where : 
+		videoIndex 	is an 	int
+		startTime 	is in 	"mss" format
+		endTime 	is in 	"mss" format
+		moveName 	is a 	string
+
+		videoIndex is required for one initial line. If the next line clips from the same video,
+			videoIndex will be optional.
+		
+	    mss format may look more familiar converted to different formats e.g.
+			mss		455
+			m:ss	4:55
+			mm:ss	04:55
+
+			this means breaking-clips doesn't clip videos past 10min for now 
+			(it's because I don't use it lol)
+
+	Example Input :
+		5 - 151 204 ***Braid
+		515 603 **Pedestrian Step > Tippy Taps > Bingo Steps > 7Step > No Hands 6Step
+		6 - 245 256 ***No Hands 6Step + Back Rolls
+		653 728 **Pedestrian Step > Stompies(?) > Uncrossed Back Shuffle > misc fw
+		7 - 206 227 misc fw > No Hands 6Step > Hand Swipes
+		8 - 230 313 Floor Palms > Telewide
 ```
 
-## Authors
+<!-- ## Authors
 
 Contributors names and contact info
 
