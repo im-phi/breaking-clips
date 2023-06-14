@@ -60,7 +60,8 @@ Each line of input text must follow this format
 
 			for example: 
 				5 - 151 204 ***Braid 
-				In my 5th video, this will take a clip from 1:51 to 2:04 and name the file "Braid"
+				- In my 5th video, this will take a clip from 1:51 to 2:04 
+					and name the file "Braid"
 
 ```
 
