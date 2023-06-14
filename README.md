@@ -58,10 +58,14 @@ Each line of input text must follow this format
 		7 - 206 227 misc fw > No Hands 6Step > Hand Swipes
 		8 - 230 313 Floor Palms > Telewide
 
-			for example: 
-				5 - 151 204 ***Braid 
-				- In my 5th video, this will take a clip from 1:51 to 2:04 
-					and name the file "Braid"
+		Explanation: 
+			5 - 151 204 ***Braid 
+			- In my 5th video, this will take a clip from 1:51 to 2:04 
+				and name the file "Braid"
+
+			515 603 **Pedestrian Step > Tippy Taps > Bingo Steps > 7Step > No Hands 6Step
+			- In my 5th video, this will take a clip from 5:15 to 6:03
+				and name the file... that entire string after lol
 
 ```
 
