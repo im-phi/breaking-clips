@@ -72,7 +72,7 @@ for line in lines:
         output_file = f'{input_directory}\clips\{files_created}-{clip_name}.mp4'
 
         # Construct and run the FFmpeg command to clip the video
-        command = f'ffmpeg -i {input_files[video_index]} -ss {start_time} -to {end_time} -c copy {output_file}'
+        command = f'ffmpeg -i {input_files[video_index]} -ss {start_time} -to {end_time} -c copy -vcodec libx265 -crf 16 {output_file}'
         subprocess.call(command, shell=True)
 
 print("\n\n")
