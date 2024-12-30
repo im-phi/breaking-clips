@@ -4,8 +4,11 @@ import glob
 import os
 
 def convert_time(input_time):
-    minutes = int(input_time[0])
-    seconds = int(input_time[1:])
+    l = (len(input_time))
+    seconds = int(input_time[(l-2):])
+
+    if l < 4: minutes = int(input_time[0])
+    else: minutes = int(input_time[:2])
 
     hours = 0
 
