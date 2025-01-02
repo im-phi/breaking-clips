@@ -48,3 +48,5 @@ for line in lines:
         files_created += 1
         clip_name = str(files_created) + " - " + clip_name
         print(clip_name)
+
+os.system('pause')
